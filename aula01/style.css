@@ -1,0 +1,82 @@
+/*Organizar CSS de Acordo com inicio meio e fim do HTML*/
+
+body {
+    text-align: center;
+    
+}
+
+#main { /* 8º- O # significa "id" nesse caso id="main" */
+    width: 626px;
+    margin:  64px/*top(cima)*/  auto /*right e left(direita e esqueda) */32px/*bottom(baixo)*/
+
+}
+
+#main img {
+    margin-bottom: 32px;
+}
+
+/* 6º copiar o codigo css do google fonts e colocar de acordo com as tags dos textos que estão no html*/
+h1 {
+    text-align: justify;
+    font-family: 'Dosis', sans-serif; /*6ºa codigo da fonte copiado*/
+    color: #3F3D56;
+    font-size: 32px;
+    line-height: 40px 
+    margin bottom 32px
+        
+}
+
+
+/* 7º copiar o codigo das cores do projeto e aplicar de acordo*/
+span { /*span do h1 quem tem a cor individual*/
+    color: #EE24FF;
+}
+
+
+p {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif; /*6ºb codigo da fonte copiado*/
+    color:#828282;  
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    width: 540px;
+}
+
+p span { /*span do p, quem tem a cor e estilo de fonte individual em um determinado texto*/
+    color: #3F3D56;  
+    font-weight: bold; 
+}
+
+a { 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; /*6ºb codigo da fonte copiado*/
+    color: #3F3D56;  
+} 
+
+#footer  a + a{ /*Instrução pegue o "a" que anterior a ele tenha o "a" e acrescente espaço a esquerda*/
+    
+    margin-left: 42px;
+}
+
+#line {
+
+    width: 391px;
+    height: 0px;
+    border: 1px solid #ECEFF2;
+    margin: 0 auto 16px;
+}
+
+#wave {
+    
+    width: 1024px;
+        height: 104px;
+        margin: 40px auto 0px;
+    
+}
+
+
+
+
+
+
